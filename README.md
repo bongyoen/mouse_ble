@@ -1,16 +1,29 @@
-# mouse_ble
+# BLE_MOUSE
 
-A new Flutter project.
+## 개요
 
-## Getting Started
+**무선블루투스** **마우스(트랙패드)**
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 기술 스택
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `Flutter`, `Ble`, `HiD`, `SqlLite`, `Android Native`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 주요 기능
+
+- `마우스기능` 좌우클릭, 스크롤, 드래그, 연속입력
+- `BLE 연결 로직` Android Native 환경 Bluetooth 디바이스 검색, 처리, 연결
+- `동작 로직` Flutter material기반 UI
+
+---
+
+
+## 참고 자료
+
+- [Flutter - Dart API docs 문서](https://api.flutter.dev/)
+
+- [pub.dev](https://pub.dev/)
+
